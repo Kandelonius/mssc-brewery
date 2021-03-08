@@ -10,10 +10,10 @@ import java.util.UUID;
 /**
  * Created by jt on 2019-04-20.
  */
-@Data
+@Data // getters and setters equals and hashcode methods
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Builder // implements the builder pattern pg 97 GOF Design Patterns book
 public class BeerDto {
 
     private UUID id;
